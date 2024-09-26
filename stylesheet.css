@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#Main_menu{
+    background-color: rgb(28, 125, 125);
+}
+
+#Main_menu ul{
+    list-style: none;
+    text-align: center;
+
+}
+
+#Main_menu li{
+    display: inline-block;
+    position: relative;
+    
+}
+
+#Main_menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 4px;
+    padding: 12px;
+   
+}
+
+#Main_menu li a:hover{
+
+    background-color: rgb(13, 240, 240);
+}
+
+
+#Main_menu ul ul{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 200px;
+    display: none;
+
+}
+
+#Main_menu ul ul li{
+display: block;
+
+}
+
+
+   
+#Main_menu ul li:hover ul{   
+    display: block;
+   
+    
+}
+
+ #Main_menu ul li:hover li a{
+background-color: green;
+
+ }  
+
+ #Main_menu ul ul li a:hover{
+    background-color: black;
+
+    }
+
+#Main_menu ul li:hover a{
+    
+    background-color: rgb(215, 7, 7);
+    
+}
+
+
+
+
+
